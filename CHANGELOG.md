@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.4.5-OS3] - 2019-09-10
+### Fixes
+- Fixed compatibility with plugins that make use of Google Services [RNMT-3264](https://outsystemsrd.atlassian.net/browse/RNMT-3264)
+
 ## [2.4.5-OS2] - 2019-04-12
 ### Changes
 - **BREAKING:** Update used version of Android support libraries to 28 [RNMT-2726](https://outsystemsrd.atlassian.net/browse/RNMT-2726)
@@ -19,7 +23,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changes
 - Merge upstream (2.4.5) into OutSystems branch
 
-[Unreleased]: https://github.com/OutSystems/OneSignal-Cordova-SDK/compare/2.4.5-OS2...HEAD
+[Unreleased]: https://github.com/OutSystems/OneSignal-Cordova-SDK/compare/2.4.5-OS3...HEAD
+[2.4.5-OS3]: https://github.com/OutSystems/OneSignal-Cordova-SDK/compare/2.4.5-OS2...2.4.5-OS3
 [2.4.5-OS2]: https://github.com/OutSystems/OneSignal-Cordova-SDK/compare/2.4.5-OS1...2.4.5-OS2
 [2.4.5-OS1]: https://github.com/OutSystems/OneSignal-Cordova-SDK/compare/2.4.5-OS...2.4.5-OS1
 [2.4.5-OS]: https://github.com/OutSystems/OneSignal-Cordova-SDK/compare/2.3.2-OS2...2.4.5-OS
