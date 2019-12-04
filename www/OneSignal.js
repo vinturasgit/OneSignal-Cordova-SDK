@@ -132,6 +132,10 @@ OneSignal.prototype.addSubscriptionObserver = function(callback) {
   cordova.exec(subscriptionCallBackProcessor, function(){}, "OneSignalPush", "addSubscriptionObserver", []);
 };
 
+OneSignal.prototype.removeSubscriptionObserver = function(callback) {
+  cordova.exec(function(){}, function(){}, "OneSignalPush", "removeSubscriptionObserver", []);
+};
+
 OneSignal.prototype.addEmailSubscriptionObserver = function(callback) {
     OneSignal._emailSubscriptionObserverList.push(callback);
     var emailSubscriptionCallbackProcessor = function(state) {

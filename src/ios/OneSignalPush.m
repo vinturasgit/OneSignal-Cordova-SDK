@@ -302,6 +302,13 @@ static Class delegateClass = nil;
         [OneSignal addSubscriptionObserver:self];
 }
 
+- (void)removeSubscriptionObserver:(CDVInvokedUrlCommand*)command {
+    if (subscriptionObserverCallbackId != nil){
+        subscriptionObserverCallbackId = nil;
+        [OneSignal removeSubscriptionObserver:self];
+    }
+}
+
 - (void)addEmailSubscriptionObserver:(CDVInvokedUrlCommand *)command {
     bool first = emailSubscriptionCallbackId == nil;
     emailSubscriptionCallbackId = command.callbackId;
