@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.6.0-OS2] - 2019-12-04
+### Additions
+- Add plugin action to remove SubscriptionObserver [RNMT-3623](https://outsystemsrd.atlassian.net/browse/RNMT-3623)
+
+
 ## [2.6.0-OS1] - 2019-10-10
 ### Fixes
 - Change OneSignal-Android-SDK to point to newer version 3.11.4-OS [RNMT-3314](https://outsystemsrd.atlassian.net/browse/RNMT-3314)
@@ -35,7 +40,8 @@ RNMT-3264](https://outsystemsrd.atlassian.net/browse/RNMT-3264)
 ### Changes
 - Merge upstream (2.4.5) into OutSystems branch
 
-[Unreleased]: https://github.com/OutSystems/OneSignal-Cordova-SDK/compare/2.6.0-OS1...HEAD
+[Unreleased]: https://github.com/OutSystems/OneSignal-Cordova-SDK/compare/2.6.0-OS2...HEAD
+[2.6.0-OS2]: https://github.com/OutSystems/OneSignal-Cordova-SDK/compare/2.6.0-OS1...2.6.0-OS2
 [2.6.0-OS1]: https://github.com/OutSystems/OneSignal-Cordova-SDK/compare/2.6.0-OS...2.6.0-OS1
 [2.6.0-OS]: https://github.com/OutSystems/OneSignal-Cordova-SDK/compare/2.4.5-OS3...2.6.0-OS
 [2.4.5-OS3]: https://github.com/OutSystems/OneSignal-Cordova-SDK/compare/2.4.5-OS2...2.4.5-OS3

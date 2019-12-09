@@ -80,7 +80,8 @@ public class OneSignalPush extends CordovaPlugin {
   
   private static final String ADD_PERMISSION_OBSERVER = "addPermissionObserver";
   private static final String ADD_SUBSCRIPTION_OBSERVER = "addSubscriptionObserver";
-  
+  private static final String REMOVE_SUBSCRIPTION_OBSERVER = "removeSubscriptionObserver";
+
   private static final String GET_TAGS = "getTags";
   private static final String DELETE_TAGS = "deleteTags";
   private static final String SEND_TAGS = "sendTags";
@@ -238,6 +239,12 @@ public class OneSignalPush extends CordovaPlugin {
           }
         };
         OneSignal.addSubscriptionObserver(subscriptionObserver);
+      }
+      result = true;
+    }
+    else if (REMOVE_SUBSCRIPTION_OBSERVER.equals(action)) {
+      if (subscriptionObserver != null) {
+        OneSignal.removeSubscriptionObserver(subscriptionObserver);
       }
       result = true;
     }
